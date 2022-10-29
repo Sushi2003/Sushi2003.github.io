@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>eg7</title>
+</head>
+<style>
+    @media (max-width: 600px) {
+        .container{ flex-flow: column wrap}
+        .one{order: 2}
+        .two{order: 3}
+        .three{order:1}
+        .four{order:4}
+
+    }
+    @media (min-width: 800px) {
+        .container{flex-flow: row wrap}
+
+    }
+    .container{display: flex ; font-size: 100px }
+</style>
+<body>
+<div class="container"> world
+  <div class="one"> 1  </div>
+  <div class="two"> 2 </div>
+  <div class="three"> 3 </div>
+  <div class="four"> 4 </div>
+</div>
+
+</body>
+</html>
